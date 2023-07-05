@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
+import { BookModule } from '../book';
 
 @Module({
-  imports: [],
+  imports: [BookModule],
   controllers: [],
   providers: [],
 })
